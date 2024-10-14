@@ -29,20 +29,20 @@ cacheOptions.setOptionsToCache({
       template.showEchossCertificationPage(
         {
           app: this,
-          appId         : "wxf59533afc8975255",
-          regionCode    : template.REGION_CODE_TYPE.CHINA,
-          languageCode  : template.LANGUAGE_CODE_TYPE.CHINESE, 
+          appId: 'wxf59533afc8975255',
+          regionCode: template.REGION_CODE_TYPE.CHINA,
+          languageCode: template.LANGUAGE_CODE_TYPE.CHINESE,
           // licenseId     : "paeceac4f09a34648b10f0ec5cfe2e3d7",
-          licenseId     : "d23ba7b2ae7e149edb0a6c13191d745d7",
-          userCode      : "U0001V00A001B001M00001V00A001B001M00001",
+          licenseId: 'd23ba7b2ae7e149edb0a6c13191d745d7',
+          userCode: 'U0001V00A001B001M00001V00A001B001M00001',
           // userCode      : "wechat_openid",
-          merchantCode  : "V00A001B001M00001",
+          merchantCode: 'V00A001B001M00001',
           //authKey       : "",
           extData: {
-            "type"    : "SPM",
-            "service" : "COUPON",
-            "price"   : "100"
-          }
+            type: 'SPM',
+            service: 'COUPON',
+            price: '100',
+          },
         },
         function (errorCode, errorMessage) {
           Taro.hideLoading()

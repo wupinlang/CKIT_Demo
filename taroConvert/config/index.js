@@ -22,10 +22,6 @@ export default defineConfig(async (merge, { command, mode }) => {
     },
     copy: {
       patterns: [
-        {
-          from: 'src/certificationKit',
-          to: 'dist/certificationKit',
-        }
       ],
       options: {
       }
@@ -41,6 +37,12 @@ export default defineConfig(async (merge, { command, mode }) => {
           enable: true,
           config: {
 
+          }
+        },
+        url: {
+          enable: true,
+          config: {
+            limit: 1024 // 设定转换尺寸上限
           }
         },
         cssModules: {
