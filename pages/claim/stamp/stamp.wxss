@@ -1,0 +1,17 @@
+/* @import "/certificationKit/ckit.wxss"; */
+
+/**index.wxss**/
+
+.ckitDemoView {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.ckitPageBtn {
+  display: block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color:dodgerblue;
+  color: white;
+  border-radius: 5px;
+}

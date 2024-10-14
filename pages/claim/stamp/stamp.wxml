@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class="container" ontouchstart="echossTouchStart" ontouchmove="echossTouchMove" ontouchend="echossTouchEnd" ontouchcancel="echossTouchCancel">
+
+  <view class="ckitDemoView">
+    <text>Certification Kit Demo</text>
+    <text class="ckitPageBtn" catchtap="callCkitPage">Certification Page Button</text>
+  </view>
+
+</view>
